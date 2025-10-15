@@ -324,8 +324,6 @@ public class Controleur implements Observable, Serializable {
 
     public void sauvegarderInstrument(File fichier) {
         StringBuilder data = new StringBuilder("");
-
-        System.out.println(getInstrument().);
     }
 
     public void chargerInstrument(File fichier) {
