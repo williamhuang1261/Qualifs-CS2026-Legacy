@@ -33,6 +33,5 @@ public class MotionListener extends MouseMotionAdapter {
         interfacePrincipale.actualMousePoint = e.getPoint();
       }
     }
-
   }
 }

@@ -31,6 +31,7 @@ public class ZoneJeu extends JPanel implements Observateur {
     public void initialiser(){
         addMouseListener(new ZoneJeuListener(interfacePrincipale));
         addMouseMotionListener(new MotionListener(interfacePrincipale));
+
         interfacePrincipale.controleur.ajouterObservateur(this);
     }
     
